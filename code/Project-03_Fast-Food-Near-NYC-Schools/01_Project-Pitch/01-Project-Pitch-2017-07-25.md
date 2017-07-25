@@ -19,14 +19,14 @@ Building Own Restaurant Stores Location Database.
 https://github.com/demetriospogkas/The-Lede-2017-Data-Projects/tree/master/code/Project-03_Fast-Food-Near-NYC-Schools/01_Project-Pitch
 
 - Test Plots:  
-KFC stores
+KFC stores  
 ![](https://raw.githubusercontent.com/demetriospogkas/The-Lede-2017-Data-Projects/master/code/Project-03_Fast-Food-Near-NYC-Schools/01_Project-Pitch/04-Test-KFC.png)
 
-McDonald's
+McDonald's  
 ![](https://raw.githubusercontent.com/demetriospogkas/The-Lede-2017-Data-Projects/master/code/Project-03_Fast-Food-Near-NYC-Schools/01_Project-Pitch/04-Test-McDonalds.png)
 
-Taco Bell
+Taco Bell  
 ![](https://raw.githubusercontent.com/demetriospogkas/The-Lede-2017-Data-Projects/master/code/Project-03_Fast-Food-Near-NYC-Schools/01_Project-Pitch/04-Test-Taco-Bell.png)
 
-Wendy's
+Wendy's  
 ![](https://raw.githubusercontent.com/demetriospogkas/The-Lede-2017-Data-Projects/master/code/Project-03_Fast-Food-Near-NYC-Schools/01_Project-Pitch/04-Test-Wendys.png)
