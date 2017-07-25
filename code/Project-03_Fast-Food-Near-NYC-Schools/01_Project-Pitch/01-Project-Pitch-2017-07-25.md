@@ -13,11 +13,20 @@ Focus on New York City neighborhoods.
 NYC Health: http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2061,4466a0,113,Summarize  
 Wikipedia https://en.wikipedia.org/wiki/List_of_fast_food_restaurant_chains
 
-Buidling Restaurant Stores Location Database.
+Building Restaurant Stores Location Database.
 
 - Work So Far:  
-
+https://github.com/demetriospogkas/The-Lede-2017-Data-Projects/tree/master/code/Project-03_Fast-Food-Near-NYC-Schools/01_Project-Pitch
 
 - Test Plots:  
+KFC stores
+![](https://demetriospogkas.github.io/The-Lede-2017-Data-Projects/Project-02_Real-Estate-Manhattanville-Campus/ZIPS-Monthly-Absolute.png)
 
+McDonald's
+![](https://demetriospogkas.github.io/The-Lede-2017-Data-Projects/Project-02_Real-Estate-Manhattanville-Campus/Areas-Monthly-Medians-Indexed.png)
 
+Taco Bell
+![](https://demetriospogkas.github.io/The-Lede-2017-Data-Projects/Project-02_Real-Estate-Manhattanville-Campus/Areas-Monthly-Medians-Pctchange.png)
+
+Wendy's
+![](https://demetriospogkas.github.io/The-Lede-2017-Data-Projects/Project-02_Real-Estate-Manhattanville-Campus/ZIPS-Monthly-Absolute.png)
