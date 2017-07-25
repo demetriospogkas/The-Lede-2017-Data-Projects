@@ -6,10 +6,10 @@
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="Real-Estate Around Manhattanville Campus Up But Not As Much As Rest of Manhattan" />
-  <meta property="og:url" content="" />
-  <meta property="og:description" content="Delving into real-estate data to exploring how the market is looking at the value that could be added to Manhattanville from the new Columbia University campus." />
-  <meta property="og:image" content="Manhattanville-Campus-Geometries.png" />
+  <meta property="og:title" content=" NYC Subway Suffers 3,000 Service-Interrupting Incidents in First Half of 2017" />
+  <meta property="og:url" content="http://demetriospogkas.com/external/MTA-Subway-Alerts-New-York-2017-H1/Stations-Map.html" />
+  <meta property="og:description" content="Analyzing over 12,000 MTA Archived Alerts for 2017, it is revealed that over 3,000 incidents have caused delays, interruptions, and other service malfunctions in the Subway system." />
+  <meta property="og:image" content="http://demetriospogkas.com/images/mta-lines/stations-image.png" />
   <meta property="og:video:width" content="331" />
   <meta property="og:video:height" content="231" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i" rel="stylesheet">
@@ -45,14 +45,14 @@
     margin-left: 7%; width:100%;
   }
   .image-text-left {
-    margin-top: -2%; margin-left: 15%; font-family: 'Lato', sans-serif; font-size:12px; font-weight: 300; font-style: italic; width:70%;
+    margin-top: -2%; margin-left: 15%; font-family: 'Lato', sans-serif; font-size:14px; font-weight: 300; font-style: italic; width:70%;
   }
 
   .image-right {
-    margin-left: -7%; width:100%;
+    margin-left: 2%; width:100%;
   }  
   .image-text-right {
-    margin-top: 0%; margin-left: 7%; font-family: 'Lato', sans-serif; font-size:12px; font-weight: 300; font-style: italic; width:70%; text-align: right;
+    margin-top: 0%; margin-left: 7%; font-family: 'Lato', sans-serif; font-size:14px; font-weight: 300; font-style: italic; width:70%; text-align: right;
   }
 
 
@@ -73,6 +73,15 @@
     }
 
 
+  .table-margin {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .footnote {
+    font-family:Cinzel;
+    font-weight: bold;
+  }
   </style>
 
 
@@ -101,7 +110,7 @@
   </tr>
 <table>
 
-<table>
+<table class="table-margin">
 <tr>
   <td style="width:60%">
     <div class = "image-left">
@@ -111,7 +120,7 @@
   <td style='vertical-align:top;'>
     <div class = "image-text-left">
         <p>
-          <span style='font-family:Cinzel;'>Manhattanville Campus aerial.</span><br/>
+          <span class='footnote'>Manhattanville Campus aerial.</span><br/>
           A satellite image of the area in Manhattanville Columbia University is building it new campus. When completed, the campus will be home of the following constructions:
           <br/>
           1. Jerome L. Greene Science Center, 2. University Forum and Academic Conference Center, 3. 560 Riverside, 4. Columbia Business School, 5. Lenfest Center for the Arts, 6. Studebaker, 7. Prentis Hall, 8. Nash Building, 9. West Harlem Piers Park.
@@ -123,7 +132,7 @@
 </table>
 
 
-<table>
+<table class="table-margin">
   <tr>
     <td>
       <div class = "plain-text">
@@ -139,27 +148,48 @@
 <table>
 
 
-<table>
+<table class="table-margin">
 <tr>
   </td>
   <td style='vertical-align:top;'>
     <div class = "image-text-right">
         <p>
-          <span style='font-family:Cinzel;'>Real-Estate Around Campus Up, But Not As Much As Rest of Manhattan</span><br/>
+          <span class='footnote'>Only 2 ZIP Codes around Manhattanville Campus among Manhattan's Most Expensive</span><br/>
           Home values in ZIP Codes around Manhattaville Campus are following the general trend of going up since January 2004, but are not growing as fast as the rest of Manhattan island. From the ZIP Codes around Manhattanville Campus area, most expensive code is 10024 (Upper West Side), while least expensive is 10032 (Washington Heights).<br/>
           Data Source: Zillow Home Value Index.
         </p>
       </div>
   </td>
   <td style="width:70%">
-    <div class = "image-right">
-    <img src="Campus-vs-Manhattan-ZIPs.png" width="100%">
+    <div class='image-right'>
+      <img src='ZIPS-Monthly-Absolute.png' width="90%" />
     </div>
+  </td>
 </tr>
 </table>
 
 
-<table>
+<table class="table-margin">
+<tr>
+  <td style="width:60%">
+    <div class = "image-left">
+    <img src="Areas-Monthly-Medians-Indexed.png" width="100%">
+    </div>
+  </td>
+  <td style='vertical-align:top;'>
+    <div class = "image-text-left">
+        <p>
+          <span class='footnote'>Home Values in rest of Harlem are Going Up Faster Than ZIPs around Manhattanville Campus</span><br/>
+          text
+          <br/>Data Source: Zillow Home Value Index.
+        </p>
+      </div>
+  </td>
+</tr>
+</table>
+
+
+<table class="table-margin">
   <tr>
     <td>
       <div class = "plain-text">
@@ -172,7 +202,29 @@
 <table>
 
 
-<table>
+<table class="table-margin">
+<tr>
+  </td>
+  <td style='vertical-align:top;'>
+    <div class = "image-text-right">
+        <p>
+          <span class='footnote'>Manhattanville Campus Change Similarly Over Time with Rest of Manhattan</span><br/>
+          text.<br/>
+          Data Source: Zillow Home Value Index.
+        </p>
+      </div>
+  </td>
+  <td style="width:70%">
+    <div class='image-right'>
+      <img src='Areas-Monthly-Medians-Pctchange.png' width="90%" />
+    </div>
+  </td>
+</tr>
+</table>
+
+
+
+<table class="table-margin">
   <tr>
     <td>
       <div class = "gif-left">
@@ -219,10 +271,10 @@
           <p>
             <br/>
 <!--             <img src = "https://image.flaticon.com/icons/png/128/149/149129.png" width="25px" class="anigif" href="#" onclick="skip(-0.12); return false;"> -->
-            <img src = "https://image.flaticon.com/icons/png/128/117/117999.png" width="25px" class="anigif" href="#" onclick="vidplay(); return false;">
+            <img src = "play-video-button.png" width="25px" class="anigif" href="#" onclick="vidplay(); return false;">
 <!--             <img src = "https://image.flaticon.com/icons/png/128/149/149128.png" width="25px" class="anigif" href="#" onclick="skip(0.12); return false;"> -->
             <br/>
-            <span style='font-family:Cinzel;'>Home Values per Square Foot Around Manhattanville Campus Over Time - Animation</span><br/>
+            <span class='footnote'>Home Values per Square Foot Around Manhattanville Campus Over Time - Animation</span><br/>
             Average home values per square foot for ZIP Codes around Manhattanville Campus since January 2014.<br/>
             Data Source: Zillow Home Value Index.
           </p>
