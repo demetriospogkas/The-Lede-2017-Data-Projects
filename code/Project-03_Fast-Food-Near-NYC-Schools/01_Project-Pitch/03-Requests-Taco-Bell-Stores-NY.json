@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ZIP": "10003", "address": "18 E. 14th Street", "borough": "New York", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.992719, 40.735528 ] } },
+{ "type": "Feature", "properties": { "ZIP": "10001", "address": "390 8th Avenue", "borough": "New York", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.995392, 40.749222 ] } },
+{ "type": "Feature", "properties": { "ZIP": "10001", "address": "2 Penn Plaza", "borough": "New York", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.993423, 40.750969 ] } },
+{ "type": "Feature", "properties": { "ZIP": "11222", "address": "208 McGuinness Boulevard", "borough": "Brooklyn", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.95062, 40.729782 ] } },
+{ "type": "Feature", "properties": { "ZIP": "11206", "address": "785 Flushing Avenue", "borough": "Brooklyn", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.941455, 40.70098 ] } },
+{ "type": "Feature", "properties": { "ZIP": "11385", "address": "57-29 Myrtle Ave", "borough": "Ridgewood", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.902671, 40.700586 ] } },
+{ "type": "Feature", "properties": { "ZIP": "11103", "address": "3078 Steinway Street", "borough": "Astoria", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.916732, 40.762004 ] } },
+{ "type": "Feature", "properties": { "ZIP": "10029", "address": "1503 Lexington Ave", "borough": "Manhattan", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.950425, 40.786546 ] } },
+{ "type": "Feature", "properties": { "ZIP": "11377", "address": "60-12 Northern Blvd", "borough": "Woodside", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.901794, 40.753683 ] } },
+{ "type": "Feature", "properties": { "ZIP": "10029", "address": "1884 Third Ave", "borough": "New York", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.945706, 40.790449 ] } },
+{ "type": "Feature", "properties": { "ZIP": "11209", "address": "8625  4TH Ave.", "borough": "Brooklyn", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -74.02847, 40.62203 ] } },
+{ "type": "Feature", "properties": { "ZIP": "10029", "address": "173 E. 116th Street", "borough": "New York", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.94061, 40.798369 ] } },
+{ "type": "Feature", "properties": { "ZIP": "11372", "address": "8301 37th Ave", "borough": "Jackson Heights", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.883271, 40.749946 ] } },
+{ "type": "Feature", "properties": { "ZIP": "10035", "address": "12 E. 125th Street", "borough": "New York", "state": "NY" }, "geometry": { "type": "Point", "coordinates": [ -73.941597, 40.806151 ] } }
+]
+}
