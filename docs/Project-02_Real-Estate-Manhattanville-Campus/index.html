@@ -82,6 +82,24 @@
     font-family:Cinzel;
     font-weight: bold;
   }
+
+  .vid-container{
+    width: 295px;
+    height: 468px;
+    overflow:hidden;
+    display:block;
+  }
+  
+  #Video1{
+    margin-left: -1%;
+    margin-top: -1%;
+  }
+
+.source-notes {
+  font-family: 'Lato', sans-serif; font-weight:300; font-size: 11px; margin-left: 10%; margin-right: 10%;
+}
+
+
   </style>
 
 
@@ -92,7 +110,7 @@
 
 <div id='articleTitle'>Real-Estate Around Manhattanville Campus Up<br/> But Not As Much As Rest of Manhattan</div>
 
-<div id='authorCredit'>Data Analysis and Visualisation, Texts by <a href='http://demetriospogkas.com/' target='blank'>Demetrios Pogkas</a>. July 21, 2017</div>
+<div id='authorCredit'>Data Analysis and Visualisation, Texts by <a href='http://demetriospogkas.com/' target='blank'>Demetrios Pogkas</a>. July 28, 2017</div>
 
 
 <table>
@@ -114,7 +132,7 @@
 <tr>
   <td style="width:60%">
     <div class = "image-left">
-    <img src="Manhattanville-Campus-Geometries.png" width="100%">
+    <img src="Manhattanville-Campus-Geometries-Num-1000.png" width="100%">
     </div>
   </td>
   <td style='vertical-align:top;'>
@@ -140,7 +158,7 @@
           Manhattanville campus will be constructed on a Columbia University-owned 17-acre land, stretching along Broadway west to 12th Avenue from the triangle where 125th Street crosses 129th Street north to 133rd Street—and on the east side of Broadway from 131st to 134th Street. The Renzo Piano's modern design, inspired by elements of the neighborhood, such as the Riverside Drive viaduct on the 12th Avenue, have already spurred a heated debate among the academic community and the general public about the new Campus and its integration with the economic, social, and cultural life of West Harlem and Manhattan.
         </p>
         <p>
-          Usually, real-estate is a safe enough indicator for estimating the impact a project like Manhattanville Campus, or any other human activity for that matter, might have to a given area or community. On the Manhattanville Campus case, analysis based on data available from Zillow (a online marketplace for buying or renting houses) show that although the values of homes in ZIP codes adjacent to Manhattanville Campus and listed on Zillow are going up, they don't grow as fast as the the home values in the rest of Manhattan, in terms of absolute values per square foot. Only 2 ZIP Codes are among the 20 highest performing ZIP codes, with the 10024 code in Upper West Side, being the 8th most expensive one in entire Manhattan (amnong the ZIP codes Zillow is providing data for) in May 2017.
+          Usually, real-estate is a safe enough indicator for estimating the impact a project like Manhattanville Campus, or any other human activity for that matter, might have to a given area or community. On the Manhattanville Campus case, analysis based on data available from Zillow (a online marketplace for buying or renting houses) show that although the values of homes in ZIP codes adjacent to Manhattanville Campus and listed on Zillow are going up, they don't grow as fast as the the home values in the rest of Manhattan, in terms of absolute values per square foot. Only 2 ZIP Codes are among the 20 highest performing ZIP codes, with the 10024 code in Upper West Side, being the 8th most expensive one in entire Manhattan (among the ZIP codes Zillow is providing data for) in May 2017.
         </p>
       </div>
     </td>
@@ -162,7 +180,7 @@
   </td>
   <td style="width:70%">
     <div class='image-right'>
-      <img src='ZIPS-Monthly-Absolute.png' width="90%" />
+      <img src='allZIPs-monthly-absolute_Illustrated v04 2560.png' width="90%" />
     </div>
   </td>
 </tr>
@@ -173,13 +191,14 @@
 <tr>
   <td style="width:60%">
     <div class = "image-left">
-    <img src="Areas-Monthly-Medians-Indexed.png" width="100%">
+    <img src="area_monthly-medians-indexed_Illustrated v02 png 2560.png" width="100%">
     </div>
   </td>
   <td style='vertical-align:top;'>
     <div class = "image-text-left">
         <p>
-          <span class='footnote'>Home Values in rest of Harlem are Going Up Faster Than ZIPs around Manhattanville Campus</span>
+          <span class='footnote'>Home Values in rest of Harlem are Going Up Faster Than ZIPs around Manhattanville Campus</span><br/>
+          If we re-index the values at a base of 100, we see that although values of real-eastate in the rest of Harlem are lower than around Manhattanville campus and rest of Manhattan, they have seen a higher increase than their counter-parts.
           <br/>Data Source: Zillow Home Value Index.
         </p>
       </div>
@@ -207,14 +226,15 @@
   <td style='vertical-align:top;'>
     <div class = "image-text-right">
         <p>
-          <span class='footnote'>Manhattanville Campus Change Similarly Over Time with Rest of Manhattan</span><br/>
+          <span class='footnote'>Manhattanville Campus Changes Similarly Over Time with Rest of Manhattan</span><br/>
+          Real-estate around Manhattanville Campus month-to-month change percentages follow essentially the same line that rest of Harlem and rest of Manhattan are following, indicating that in terms of month-to-month change it's not over- or under-performing that the rest of Manhattan.<br/>
           Data Source: Zillow Home Value Index.
         </p>
       </div>
   </td>
   <td style="width:70%">
     <div class='image-right'>
-      <img src='Areas-Monthly-Medians-Pctchange.png' width="90%" />
+      <img src='area_monthly-medians-pctchange_Illustrated_v02 png 2560.png' width="90%" />
     </div>
   </td>
 </tr>
@@ -251,16 +271,18 @@
               }      
           </script>
 
+          <div class='vid-container'>
           <video id="Video1" width='300'>
-               <source src="Manhattanville-Campus-Real-Estate.mp4" type="video/mp4" />
+               <source src="Sequence 01.mp4" type="video/mp4" />
                <source src="demo.ogv" type="video/ogg" />
           </video>
+          </div>
 
 <!--           <div id="buttonbar">
               <button id="restart" onclick="restart();">[]</button> 
-              <button id="rew" onclick="skip(-0.25)">&lt;&lt;</button>
+              <button id="rew" onclick="skip(-0.2365)">&lt;&lt;</button>
               <button id="play" onclick="vidplay()">&gt;</button>
-              <button id="fastFwd" onclick="skip(0.25)">&gt;&gt;</button>
+              <button id="fastFwd" onclick="skip(0.2365)">&gt;&gt;</button>
           </div>   -->
       </div>
     </td>
@@ -268,12 +290,12 @@
       <div class = "gif-text-left">
           <p>
             <br/>
-<!--             <img src = "https://image.flaticon.com/icons/png/128/149/149129.png" width="25px" class="anigif" href="#" onclick="skip(-0.12); return false;"> -->
+<!--             <img src = "https://image.flaticon.com/icons/png/128/149/149129.png" width="25px" class="anigif" href="#" onclick="skip(-0.117); return false;"> -->
             <img src = "play-video-button.png" width="25px" class="anigif" href="#" onclick="vidplay(); return false;">
-<!--             <img src = "https://image.flaticon.com/icons/png/128/149/149128.png" width="25px" class="anigif" href="#" onclick="skip(0.12); return false;"> -->
+<!--             <img src = "https://image.flaticon.com/icons/png/128/149/149128.png" width="25px" class="anigif" href="#" onclick="skip(0.117); return false;"> -->
             <br/>
             <span class='footnote'>Home Values per Square Foot Around Manhattanville Campus Over Time - Animation</span><br/>
-            Average home values per square foot for ZIP Codes around Manhattanville Campus since January 2014.<br/>
+            Median home values per square foot for ZIP Codes around Manhattanville Campus since April 2004.<br/>
             Data Source: Zillow Home Value Index.
           </p>
         </div>
@@ -294,9 +316,19 @@
   </tr>
 <table>
 
+
+<hr width=75%>
+
+<table>
+<tr>
+<p class='source-notes'>Data from Median Home Value - Zillow Home Value Index (ZHVI) / Median Home Value Per Sq Ft ($), collected and <a href='https://www.zillow.com/research/data/' target='blank'>published by Zillow Group</a>. Zillow defines all homes as single-family, condominium and co-operative homes with a county record. Median ZHVI per sq. ft. ($): Median of the value of all homes per square foot. This number is calculated [by Zillow] by taking the estimated home value for each home in a given region and dividing it by the home’s square footage. Manhattanville Campus ZIP Codes include: 10024-6, 10030-2. Rest of Harlem ZIP Codes include: 10029, 10035, 10039. Rest of Manhattan ZIP Codes include: 10001-2, 10004-7, 10009, 10014, 10018, 10021, 10023-5, 10033-4, 10038, 10065, 10069, 10075, 10128, 10280. Time-series data are not complete for all ZIP Codes. Data used for April 2004 - May 2017.</p>
+</tr>
+</table>
+
+
 <table>
   <tr>
-        <p id='affiliationCredit'><br/>The Lede 2017 at Columbia University in the City of New York. Instructed by Soma. TA'd by Georgia Kromreig and Jager Hartman. Icons: Maydebyoliver via <a href='https://www.flaticon.com/packs/essential-set-2/7' target='blank'>Flaticon.com.</a></p>
+        <p id='affiliationCredit'><br/>The Lede 2017 at Columbia University in the City of New York. Instructed by Soma. TA'd by Georgia Kromreig and Jager Hartman. Icon: Maydebyoliver via <a href='https://www.flaticon.com/packs/essential-set-2/7' target='blank'>Flaticon.com.</a></p>
   </tr>
 </table>
 
