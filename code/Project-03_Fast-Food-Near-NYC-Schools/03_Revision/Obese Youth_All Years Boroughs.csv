@@ -1,0 +1,51 @@
+,,,,,Obese Youth : Summarize
+Topic: Health Behavior and Population
+Subtopic: Overweight
+Indicator Name: Obese Youth
+Indicator Description: Obese Youth
+
+Year,GeoTypeName,Borough,Geography,Geography_id,IndicatorDescription,Number,Percent,
+2003,Citywide,New York City, New York City,1,Obese Youth,"32,000 ","13.1 (12.0, 14.2)",
+2005,Citywide,New York City, New York City,1,Obese Youth,"30,000 ","11.3 (9.9, 12.9)",
+2007,Citywide,New York City, New York City,1,Obese Youth,"26,000 ","11.2 (9.9, 12.6)",
+2009,Citywide,New York City, New York City,1,Obese Youth,"21,000 ","10.4 (9.6, 11.1)",
+2011,Citywide,New York City, New York City,1,Obese Youth,"26,000 ","11.6 (10.6, 12.8)",
+2013,Citywide,New York City, New York City,1,Obese Youth,"29,000 ","11.8 (10.6, 13.2)",
+2003,Borough,Bronx, Bronx,1,Obese Youth,"6,000 ","15.3 (13.3, 17.7)",
+2005,Borough,Bronx, Bronx,1,Obese Youth,"6,000 ","12.9 (11.1, 14.8)",
+2007,Borough,Bronx, Bronx,1,Obese Youth,"6,000 ","14.4 (10.9, 18.8)",
+2009,Borough,Bronx, Bronx,1,Obese Youth,"5,000 ","12.9 (11.4, 14.5)",
+2011,Borough,Bronx, Bronx,1,Obese Youth,"6,000 ","14.8 (13.4, 16.2)",
+2013,Borough,Bronx, Bronx,1,Obese Youth,"6,000 ","13.4 (11.1, 16.2)",
+2003,Borough,Brooklyn, Brooklyn,2,Obese Youth,"11,000 ","15.1 (12.4, 18.1)",
+2005,Borough,Brooklyn, Brooklyn,2,Obese Youth,"8,000 ","9.9 (7.1, 13.6)",
+2007,Borough,Brooklyn, Brooklyn,2,Obese Youth,"8,000 ","11.1 (8.6, 14.3)",
+2009,Borough,Brooklyn, Brooklyn,2,Obese Youth,"6,000 ","10.7 (9.5, 12.1)",
+2011,Borough,Brooklyn, Brooklyn,2,Obese Youth,"8,000 ","12.8 (10.6, 15.3)",
+2013,Borough,Brooklyn, Brooklyn,2,Obese Youth,"7,000 ","10.5 (8.8, 12.5)",
+2003,Borough,Manhattan, Manhattan,3,Obese Youth,"6,000 ","12.2 (10.9, 13.7)",
+2005,Borough,Manhattan, Manhattan,3,Obese Youth,"7,000 ","12.8 (10.3, 15.7)",
+2007,Borough,Manhattan, Manhattan,3,Obese Youth,"4,000 ","9.2 (7.2, 11.7)",
+2009,Borough,Manhattan, Manhattan,3,Obese Youth,"4,000 ","9.2 (7.8, 10.7)",
+2011,Borough,Manhattan, Manhattan,3,Obese Youth,"5,000 ","10.1 (7.1, 14.1)",
+2013,Borough,Manhattan, Manhattan,3,Obese Youth,"7,000 ","13.2 (9.5, 18.1)",
+2003,Borough,Queens, Queens,4,Obese Youth,"6,000 ","10.5 (9.0, 12.1)",
+2005,Borough,Queens, Queens,4,Obese Youth,"8,000 ","11.2 (8.3, 14.8)",
+2007,Borough,Queens, Queens,4,Obese Youth,"7,000 ","10.9 (9.0, 13.2)",
+2009,Borough,Queens, Queens,4,Obese Youth,"5,000 ","8.8 (7.3, 10.6)",
+2011,Borough,Queens, Queens,4,Obese Youth,"5,000 ","9.0 (7.7, 10.4)",
+2013,Borough,Queens, Queens,4,Obese Youth,"7,000 ","11.2 (8.9, 14.0)",
+2003,Borough,Staten Island, Staten Island,5,Obese Youth,"1,000 ","10.5 (8.7, 12.5)",
+2005,Borough,Staten Island, Staten Island,5,Obese Youth,"2,000 ","10.6 (8.9, 12.6)",
+2007,Borough,Staten Island, Staten Island,5,Obese Youth,"1,000 ","9.5 (8.2, 11.1)",
+2009,Borough,Staten Island, Staten Island,5,Obese Youth,"1,000 ","11.5 (8.7, 15.2)",
+2011,Borough,Staten Island, Staten Island,5,Obese Youth,"2,000 ","13.2 (10.1, 17.1)",
+2013,Borough,Staten Island, Staten Island,5,Obese Youth,"2,000 ","11.3 (9.8, 13.0)",
+
+Name:Obese Youth,Measure:Number,How Calculated:Estimated number of high school students classified as obese; based on the Body Mass Index (BMI) calculated from self-reported weight and height rounded to the nearest 1000. A BMI of 30 or greater is classified as obese.,Source(s):New York City Youth Risk Behav,Year:2003 2005 2007 2009 2011 2013,
+Name:Obese Youth,Measure:Percent,How Calculated:Estimated number of high school students classified as obese; based on the Body Mass Index (BMI) calculated from self-reported weight and height expressed as a percent. A BMI of 30 or greater is classified as obese.,Source(s):New York City Youth Risk Behav,Year:2003 2005 2007 2009 2011 2013,
+
+NYC Department of Health and Mental Hygiene
+Environment & Health Data Portal
+More information can be found at: http://nyc.gov/health/tracking
+Accessed 07/29/2017

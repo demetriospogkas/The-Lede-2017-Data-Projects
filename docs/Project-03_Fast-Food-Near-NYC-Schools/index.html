@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Fast-Food and Obesity
+in New York City Neighborhoods" />
+  <meta property="og:url" content="https://demetriospogkas.github.io/The-Lede-2017-Data-Projects/Project-03_Fast-Food-Near-NYC-Schools/" />
+  <meta property="og:description" content="Plotting the adult overweight/obesity rates against the number of store locations of 7 big US fast-food restaurant chains per neighborhood, we observe that the neighborhoods with higher overweight/obesity rates are having a higher number of fast-food restaurants." />
+  <meta property="og:image" content="images/overweight-adult-fast-food-new-york-city.png" />
+  <meta property="og:video:width" content="331" />
+<meta property="og:video:height" content="231" />
+
+
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/scrollmagic-styles.css" type="text/css">
+  <link rel="stylesheet" href="css/scrollmagic-examples-custom.css" type="text/css">
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/highlight.pack.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.min.js"></script>
+  <script type="text/javascript" src="js/scrollmagic-examples.js"></script>
+  <script type="text/javascript" src="js/ScrollMagic.js"></script>
+
+</head>
+<body>
+  <div id="content-wrapper">
+    <div id="example-wrapper">
+      <div class="scrollContent">
+        <section class="demo" id="section-wipes">
+          <style type="text/css">
+            .panel {
+              height: 100%;
+              width: 100%;
+              position: relative;
+            }
+
+            .panel.title {
+              position: relative;
+              height:100%;
+              background-color: white;       
+            }
+
+            .panel.intro {
+              height: 100%;
+              background-color: white;
+              color: black;
+              margin-top: 0px;
+              margin-bottom: 50px;
+            }
+
+            .panel.green {
+              height: 100%;
+              background-color: white;
+              color: black;
+            }
+
+            .panel.bordeaux {
+              height: 100%;
+              background-color: white;
+              color: black;
+            }
+
+            .panel.final {
+              height: 100%;
+              background-color: white;
+              color: black;
+            }
+
+            #authorCredit{
+                
+
+              }
+              
+
+
+
+          </style>
+          <section class="panel title">
+            <b style='font-family: Roboto; font-size: 65px; color: lightyellow; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; top: 30% !important;'>Fast-Food and Obesity<br /> in New York City Neighborhoods<br />
+            <span style='font-family: Lato, sans-serif !important; font-size:12px; font-weight: 300 !important; font-style: italic; text-align: center; color:black !important; text-shadow:none !important;'>Data Analysis and Visualisation, Texts by <a href='http://demetriospogkas.com/' target='blank'>Demetrios Pogkas</a>. July 28, 2017</span>
+            <div style='font-family: Lato, sans-serif; font-size:12px; font-weight: 300; text-align: center; margin-bottom: 15px; font-color:black; margin-top:10%;'><img src='images/scroll-down.svg' width='2%'></div></b>
+          </section>
+
+          <section class="panel intro">
+            <b style='font-family: Roboto; font-size: 25px; color: lightyellow; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left:20%; margin-right:20%; top: 25% !important;'>Introduction</b>
+            <br/><br/><b style='margin-left:20%; margin-right:20%; font-weight:300; font-size:18px; top: 23% !important;'>Walking around the streets of midtown Manhattan, the basketball courts of West Harlem, or the parks by the East River in Brooklyn, a stay-fit and practice-sports culture seems prevalent among New Yorkers.
+            <br/><br/>However, the reality is different; New York City follows the example of the rest of America. Large portions of the population are overweight or obese.
+            <br/><br/> Using data from the New York City's Environment and Health we examine the change in percentages of overweight or obese people among adults and youth across neighborhoods and boroughs. We are also exploring if there is any correlation between the density of America's 7 most well-known fast-food restaurant chains (Burger King, Dunkin' Donuts, KFC, McDonald's, Subway, Taco Bell, Wendy's) and the overweight/obesity rates among neighborhoods.
+            <br/><br/>As obesity is one of the biggest health issues among kids and teens across America, we examine how close fast-food store locations are to schools in the neighborhoods of New York City.  
+            </b>
+          </section>
+
+          <section class="panel intro">
+            <b style='font-family: Roboto; font-size: 25px; color: lightyellow; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left:10%; margin-right:10%; top: 5% !important;'>Weight issues on the rise</b>
+            <br/><br/><b style='margin-left:10%; margin-right:10%; font-weight:300; font-size:18px; top: 4% !important;'>Between 2003 and 2014, rates of overweight or obese adults in New York City have increased in all but 12 out of 34 neighborhoods, the analysis showed. Lower-income, minority-dominated neighborhoods (like neighborhoods in the Bronx and the Harlem) are occupying the the positions with the highest overweight/obesity rates. Neighborhoods with trending well-being life styles (such as midtown or downtown Manhattan), lower overweight/obesity rates are being observed.
+            <br/><br/><table><td><b style='margin-left:0%; margin-right:0%; font-weight:300; font-size:18px; top: 12% !important;'><img src='images/overweight-obese-adult-new-york-city.png' width='80%'></td><td><b style='margin-left:0%; margin-right:0%; font-weight:300; font-size:18px; top: 12% !important;'></b></td></table>
+          </section>
+
+
+          <section class="panel intro">
+            <b style='font-family: Roboto; font-size: 25px; color: lightyellow; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left:10%; margin-right:10%; top: 5% !important;'>Two Clusters</b>
+            <br/><br/><b style='margin-left:10%; margin-right:10%; font-weight:300; font-size:18px; top: 4% !important;'>Plotting the adult overweight/obesity rates against the number of store locations of 7 big US fast-food restaurant chains per neighborhood, we observe that the neighborhoods with higher overweight/obesity rates are having a higher number of fast-food restaurants. In this cluster belong neighborhoods such as East Flatbush (70.2% of overweight/obese adults, 42 restaurants), Jamaica (69.6%, 56), Pelham - Throgs Neck (69.5%, 59), South Bronx (67.4%, 74), Southern Staten Island (65.5%, 41), West Queens (64.3% , 60 restaurants), and others. 
+            <br/><br/>
+            Another prevailing, yet smaller, cluster is at the other end of the distribution, where three neighborhoods with low overweight/obesity rates have high density of fast-food restaurants. Namely, Chelse - Village(38.9% adult overweight/obesity rate, 118 restaurants - the highest number of restaurants in a neighborhood), Union Square - Lower Manhattan (40%, 70), and Upper East Side - Gramercy (41.5%, 77). A possible explanation for the high number of fast-food store locations in these three neighborhoods could be that they are commercial and touristic areas with a generally high number of restaurants, bars, and other similar places.<br/><br/>
+            The median number of restaurants among all neighborhoods is 29 (Washington Heights - Inwood, standing at a 58.5% adult overweight/obesity rate).<br/><br/><br/><table><td><b style='margin-left:0%; margin-right:0%; font-weight:300; font-size:18px; top: 12% !important;'><img src='images/overweight-adult-fast-food-new-york-city.png' width='100%'><br/></b></td></table>
+          </section>
+
+          <section class="panel final">
+            <b style='font-family: Roboto; font-size: 25px; color: lightyellow; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left:10%; margin-right:10%; top: 20% !important;'>Data Sources:<br/><span style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'><a href='http://a816-dohbesp.nyc.gov/IndicatorPublic/PublicTracking.aspx?theme_code=2,3&subtopic_id=113' target='blank' style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>The City of New York - Environment & Health Data Portal</a></span><br/><br/>
+            Created During:<br/><span style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>The Lede 2017 at Columbia University.<br/>Instructed by Soma and Maryanne Murray.</span><br/><br/>
+            Acknowledgements:<br/><span style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>Icon made by <a href="https://www.flaticon.com/authors/daniel-bruce" target='blank' title="Daniel Bruce" style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>Daniel Bruce</a> from <a href="https://www.flaticon.com/" target="blank" title="Flaticon" style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>flaticon.com</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" target='blank' title="Creative Commons BY 3.0" target="_blank" style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>CC 3.0 BY</a><br/>HTML and CSS based on <a href='http://scrollmagic.io/examples/basic/section_wipes_natural.html' target="blank" style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>ScrollMagic's Section Wipes</a>.</span><br/><br/>
+
+            Other Projects:<br/><span style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'><a href='https://goo.gl/RmT6yk' target='blank' style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>Real-Estate Around Manhattanville Campus Up But Not As Much As Rest of Manhattan</a></span>
+            </b>
+          </section>
+          <script>
+            $(function () { // wait for document ready
+              // init
+              var controller = new ScrollMagic.Controller({
+                globalSceneOptions: {
+                  triggerHook: 'onLeave'
+                }
+              });
+
+              // get all slides
+              var slides = document.querySelectorAll("section.panel");
+
+              // create scene for every slide
+              for (var i=0; i<slides.length; i++) {
+                new ScrollMagic.Scene({
+                    triggerElement: slides[i]
+                  })
+                  .setPin(slides[i])
+                  .addTo(controller);
+              }
+            });
+          </script>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
