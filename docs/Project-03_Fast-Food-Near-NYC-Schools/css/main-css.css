@@ -1,0 +1,88 @@
+  .title {
+    font-family: Source Sans Pro, serif; 
+    font-size: 65px; 
+    color: lightyellow; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    font-weight:bold;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
+  .article_container {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+    
+  .author_credit {
+    font-family: Lato, sans-serif; 
+    font-size:16px; 
+    font-weight: 300; 
+    text-align: center; 
+    margin-bottom: 25px; 
+    font-color:black; 
+    margin-top:2%;
+
+  }
+
+  .scroll {
+    margin-left: 50%;
+  }
+
+
+  .intro {
+    font-family: Source Sans Pro, serif; 
+    font-weight:300; 
+    font-size:18px; 
+    margin-top: 36%;
+    text-align: center;
+  }
+
+  .sub_head {
+    font-family: Source Sans Pro, serif; 
+    font-size: 25px; 
+    color: lightyellow; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .text {
+    font-family: Source Sans Pro, serif; 
+    font-weight:300; 
+    font-size:18px;
+    text-align: center;
+  }
+
+  .image {
+    margin-left: 5%
+  }
+
+  .image_horizontal {
+    margin-left: -22% !important;
+  }
+
+  .final {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .ending_credits_header {
+    font-family: Source Sans Pro, serif; 
+    font-size: 25px; 
+    color: lightyellow; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    text-align: center;
+  }
+  .ending_credits_content {
+    font-family: Roboto; 
+    font-size: 15px; 
+    color: black; text-shadow:none !important; 
+    font-weight:300 !important;
+    margin-bottom: 2%;
+    text-align: center;
+  }
