@@ -1,9 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Source Sans Pro:300,400,700,400italic);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,400i,500,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i);
-
   .title {
-    font-family: Source Sans Pro; 
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 65px; 
     color: lightyellow; 
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
@@ -40,7 +36,7 @@
 
 
   .intro {
-    font-family: Source Sans Pro; 
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight:300; 
     font-size:18px; 
     margin-top: 36%;
@@ -48,7 +44,7 @@
   }
 
   .sub_head {
-    font-family: Source Sans Pro; 
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px; 
     color: lightyellow; 
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
@@ -57,7 +53,7 @@
   }
 
   .text {
-    font-family: Source Sans Pro; 
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight:300; 
     font-size:18px;
     text-align: center;
@@ -76,7 +72,7 @@
     margin-bottom: 10%;
   }
   .ending_credits_header {
-    font-family: Source Sans Pro; 
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px; 
     color: lightyellow; 
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
