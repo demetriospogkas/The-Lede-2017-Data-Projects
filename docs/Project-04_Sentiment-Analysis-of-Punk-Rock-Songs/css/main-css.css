@@ -1,9 +1,15 @@
   @font-face {
     font-family: 'SexPistols';
-    src: url(sex_pistols.woff) format('woff');
-    src: url(sex_pistols.woff2) format('woff2');
+    src: url(sex_pistols-webfont.woff) format('woff');
+    src: url(sex_pistols-webfont.woff2) format('woff2');
     src: url(sex_pistols.ttf) format('truetype');
 }
+
+  @font-face {
+    font-family: 'Source Sans Pro';
+    src: url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic) format('woff');
+}
+
 
   .title {
     font-family: 'Carrois Gothic SC', sans-serif;
@@ -80,7 +86,6 @@
   }
 
   .article_container {
-    font-family: 'Source Sans Pro', sans-serif;
     margin-left: 30%;
     margin-right: 30%;
     text-align: justify !important;
@@ -98,7 +103,7 @@
 
 
   .intro {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif !important;
     font-weight:300; 
     font-size:18px; 
     margin-top: 10%;
@@ -113,7 +118,7 @@
   }
 
   .text {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif !important;
     font-weight:200; 
     font-size:18px;
     text-align: justify !important;
