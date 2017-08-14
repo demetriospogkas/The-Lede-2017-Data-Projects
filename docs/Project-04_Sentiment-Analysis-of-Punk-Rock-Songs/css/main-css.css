@@ -108,6 +108,7 @@
     font-size:18px; 
     margin-top: 10%;
     text-align: justify !important;
+    line-height: 30px;
   }
 
   .sub_head {
@@ -122,6 +123,7 @@
     font-weight:200; 
     font-size:18px;
     text-align: justify !important;
+    line-height: 30px;
   }
 
   .image {
@@ -143,10 +145,11 @@
     text-align: center;
   }
   .ending_credits_content {
-    font-family: Roboto; 
+    font-family: 'Source Sans Pro', sans-serif !important;
     font-size: 15px; 
     color: black; text-shadow:none !important; 
     font-weight:300 !important;
     margin-bottom: 2%;
     text-align: center;
+    line-height: 30px;
   }
