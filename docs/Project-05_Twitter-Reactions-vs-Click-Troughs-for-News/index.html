@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Punk Sentiments" />
+  <meta property="og:url" content="https://demetriospogkas.github.io/The-Lede-2017-Data-Projects/Project-03_Fast-Food-Near-NYC-Schools/" />
+  <meta property="og:description" content="Plotting the adult overweight/obesity rates against the number of store locations of 7 big US fast-food restaurant chains per neighborhood, we observe that the neighborhoods with higher overweight/obesity rates are having a higher number of fast-food restaurants." />
+  <meta property="og:image" content="images/overweight-adult-fast-food-new-york-city.png" />
+  <meta property="og:video:width" content="331" />
+  <meta property="og:video:height" content="231" />
+
+
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href='css/main-css.css' rel='stylesheet' type='text/css'>
+  <link href='css/interactions-vs-clicks-normalized.css' rel='stylesheet' type='text/css'>
+  <link href='css/total-tweets-vs-tweets-bitlys.css' rel='stylesheet' type='text/css'>
+  <link href='css/likes-replies-retweets-clicks.css' rel='stylesheet' type='text/css'>
+  <link href='css/table.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+
+<div class = 'title'>When on Twitter are you scrolling or reading the news?</div>
+
+<div class = 'author_credit'>by <a href='http://demetriospogkas.com/' target='blank'>Demetrios Pogkas</a>. August 25, 2017.</div>
+
+<div class = 'cover_image'><img src = 'images/twitter-nytimes-1980.jpg' width='100%'></div>
+<div class = 'image_credit'>New York Times Twitter feed (August, 25, 2017).</div>
+
+<div class = 'article_container'>
+
+ <div class = 'intro'>
+    <p>
+      We’re living in the world of social media domination over news distribution and information dissemination. If you’re a social media user, you most probably get your updates about your local communities or the latest global developments directly through the links your friends are sharing on their feeds or the groups and lists you both follow. You don’t even have to visit a news website home page anymore; sponsored ads or just the follow button you clicked on ages ago will bring you the latest posts directly on your feed.
+    </p>
+    <p>
+      The prevalence of social media on the way we are getting informed has spurred criticism about 'echo-chambers' creation, where everyone's beliefs are re-assured by being exposed to content coming from friends with similar views, and algorithm manipulation, as it's not exactly clear how social media decide which of the thousands links and posts shared every day we should see on our feeds. The recent fake news outbreak put the relationship between social media and news distribution under new pressure, as social networks (and search engines) were accused of neglecting to identify the issue and help tackle it promptly.
+    </p>
+    <p>
+      And while several analyses and studies have been made on the impact of social media on the ways readers receive, consume, and perceive news, one interesting aspect has been rather neglected; <b>how many people are actually reading rather than just liking or sharing</b> what goes in front of their eyes? How many people are forming their views and opinions from actually clicking through and delving into the details of a report they stumbled upon on their feed, instead of just sticking to the headline and the caption of a post or a Tweet for reaching to their conclusions?
+    </p>
+    <p>
+      Now, neglected might be a quite unfair word, since it's <b>technically difficult to know exactly how many people have seen, interacted, and clicked-through</b> news-related posts and Tweets, without having access to Facebook or Twitter metrics, or analytics of the news organisations that post on the social media.
+    </p>
+    <p>
+      However, <b>one sweet work-around</b> that issue - and possibly the only way we have to get some insights on the number of people that are clicking on links on social media - is utilizing the bitly's news organizations are using for posting their links on social media. <a href="https://bitly.com/" target="blank"><b>bitly</b></a> is an online tool that turns any URL to a short link, making it easier for embedding it on social media postings. bitly core service is offering analytics on the performance of each shared link, such as total clicks, what website these clicks came from, user location and so on. Although bitly monetizes its services through premium features offered to paying customers, still all the essential data we need for our experiment (total clicks, source) are <b>publicly available</b>.
+    </p>
+  </div>
+
+  <div class = 'image'>
+    <!-- Generated by ai2html v0.65.4 -->
+    <div id="g-02-Interactions-vs-Clicks-Normalized-XYLims_v06-box" class="ai2html">
+      <div id="g-02-Interactions-vs-Clicks-Normalized-XYLims_v06-Artboard_1" class="g-artboard g-artboard-v3" data-min-width='1152'>
+        <img id="g-ai0-0" class="g-aiImg" src="images/interactions-vs-clicks-normalized.jpg"/>
+        <div id="g-ai0-1" class="g-Layer_1 g-aiAbs" style="top:8.2176%;left:6.1732%;width:84.6354%;">
+          <p class="g-pstyle0">Twitter users more likely to socialise with than actually read the news</p>
+        </div>
+        <div id="g-ai0-2" class="g-Layer_1 g-aiAbs" style="top:12.5%;left:6.1732%;width:84.6354%;">
+          <p class="g-pstyle1">Likes, retweets, and replies vs. click-throughs per 100 tweets with a bitly shortlink for major US news organisations. <br/>Tweets for Tue, Aug 15th - Mon, Aug, 21st. Bitly analytics retrieved on Tue, Aug 22nd.</p>
+        </div>
+        <div id="g-ai0-3" class="g-Layer_1 g-aiAbs" style="top:20.7176%;left:8.9804%;margin-left:-6.684%;width:13.3681%;">
+          <p class="g-pstyle2">160,000</p>
+        </div>
+        <div id="g-ai0-4" class="g-Layer_1 g-aiAbs" style="top:22.9167%;left:8.0255%;margin-left:-6.684%;width:13.3681%;">
+          <p class="g-pstyle2">interactions</p>
+        </div>
+        <div id="g-ai0-5" class="g-Layer_1 g-aiAbs" style="top:29.0509%;left:8.9804%;margin-left:-6.684%;width:13.3681%;">
+          <p class="g-pstyle2">140,000</p>
+        </div>
+        <div id="g-ai0-6" class="g-Layer_1 g-aiAbs" style="top:37.3843%;left:8.9804%;margin-left:-6.684%;width:13.3681%;">
+          <p class="g-pstyle2">120,000</p>
+        </div>
+        <div id="g-ai0-7" class="g-Layer_1 g-aiAbs" style="top:40.625%;left:15.7437%;width:21.1806%;">
+          <p class="g-pstyle3">More socialising with the news</p>
+        </div>
+        <div id="g-ai0-8" class="g-Layer_1 g-aiAbs" style="top:45.8333%;left:8.9804%;margin-left:-6.684%;width:13.3681%;">
+          <p class="g-pstyle2">100,000</p>
+        </div>
+        <div id="g-ai0-9" class="g-Layer_1 g-aiAbs" style="top:54.2824%;left:9.3276%;margin-left:-6.684%;width:13.3681%;">
+          <p class="g-pstyle2">80,000</p>
+        </div>
+        <div id="g-ai0-10" class="g-Layer_1 g-aiAbs" style="top:62.6157%;left:9.3276%;margin-left:-6.684%;width:13.3681%;">
+          <p class="g-pstyle2">60,000</p>
+        </div>
+        <div id="g-ai0-11" class="g-Layer_1 g-aiAbs" style="top:65.625%;left:60.7302%;width:21.1806%;">
+          <p class="g-pstyle3">More reading the news</p>
+        </div>
+        <div id="g-ai0-12" class="g-Layer_1 g-aiAbs" style="top:71.0648%;left:9.4578%;margin-left:-4.4705%;width:8.941%;">
+          <p class="g-pstyle2">40,000</p>
+        </div>
+        <div id="g-ai0-13" class="g-Layer_1 g-aiAbs" style="top:79.3981%;left:9.4578%;margin-left:-4.4705%;width:8.941%;">
+          <p class="g-pstyle2">20,000</p>
+        </div>
+        <div id="g-ai0-14" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:12.4229%;margin-left:-1.6059%;width:3.2118%;">
+          <p class="g-pstyle2">0</p>
+        </div>
+        <div id="g-ai0-15" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:21.1469%;margin-left:-3.3854%;width:6.7708%;">
+          <p class="g-pstyle2">20,000</p>
+        </div>
+        <div id="g-ai0-16" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:29.7406%;margin-left:-3.3854%;width:6.7708%;">
+          <p class="g-pstyle2">40,000</p>
+        </div>
+        <div id="g-ai0-17" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:38.4212%;margin-left:-3.3854%;width:6.7708%;">
+          <p class="g-pstyle2">60,000</p>
+        </div>
+        <div id="g-ai0-18" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:47.1146%;margin-left:-2.5174%;width:5.0347%;">
+          <p class="g-pstyle2">80,000</p>
+        </div>
+        <div id="g-ai0-19" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:55.5218%;margin-left:-3.3854%;width:6.7708%;">
+          <p class="g-pstyle2">100,000</p>
+        </div>
+        <div id="g-ai0-20" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:64.1156%;margin-left:-3.3854%;width:6.7708%;">
+          <p class="g-pstyle2">120,000</p>
+        </div>
+        <div id="g-ai0-21" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:72.7093%;margin-left:-3.3854%;width:6.7708%;">
+          <p class="g-pstyle2">140,000</p>
+        </div>
+        <div id="g-ai0-22" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:81.3899%;margin-left:-3.3854%;width:6.7708%;">
+          <p class="g-pstyle2">160,000</p>
+        </div>
+        <div id="g-ai0-23" class="g-Layer_1 g-aiAbs" style="top:90.162%;left:89.9836%;margin-left:-3.3854%;width:6.7708%;">
+          <p class="g-pstyle2">180,000</p>
+        </div>
+        <div id="g-ai0-24" class="g-Layer_1 g-aiAbs" style="top:92.7083%;left:87.2505%;width:10.3299%;">
+          <p class="g-pstyle4">click-throughs</p>
+        </div>
+        <div id="g-ai0-25" class="g-Layer_1 g-aiAbs" style="top:94.6759%;left:50.0782%;width:3.2986%;">
+          <p class="g-pstyle5">pogkas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = 'text'>
+    <p>
+      As shown in the graph above, Twitter followers of major US news organisations that use bitly's for sharing their content on social media seem <b>slightly more inclined to 'socialise' with their news instead of actually read them</b>. As 'socialising' we defined interactions (retweets, replies, likes) with a Tweet, and as reading we defined clicking-through the link shared in the a Tweet. The New York Times appear to have the following audience with the highest ratio between click-throughs and Tweet interactions, indicating a higher engagement with the actual news production. On the other hand, Washington Post, ABC News, Fox News and CNN appear to form a cluster of news organisations, whose Twitter followers tend more to like or retweet a post rather than actualy click-through and read it. Finally, a larger cluster is formed by media really close to the line that divides between followers that 'socialise' more and followers that read more. Publications like Vox, The Los Angeles Times, Quartz, have followers that are more or less equally likely to interact and to click-through their posts.
+    </p>
+  </div>
+
+  <div class='image'>
+    <!-- Generated by ai2html v0.65.4 -->
+    <div id="g-03-Total-Tweets-vs-Tweets-with-bitlys_v03-box" class="ai2html">
+      <div id="g-03-Total-Tweets-vs-Tweets-with-bitlys_v03-Artboard_1" class="g-artboard g-artboard-v3" data-min-width='1152'>
+        <img id="g-ai0-0" class="g-aiImg-2" src="images/total-tweets-vs-with-bitlys.jpg"/>
+        <div id="g-ai0-1" class="g-Layer_1 g-aiAbs" style="top:6.9703%;right:31.719%;width:23.4375%;">
+          <p class="g-pstyle0">Tweets with bitlys</p>
+        </div>
+        <div id="g-ai0-2" class="g-Layer_1 g-aiAbs" style="top:6.9703%;left:39.1578%;width:10.5035%;">
+          <p class="g-pstyle1">Total Tweets</p>
+        </div>
+        <div id="g-ai0-3" class="g-Layer_1 g-aiAbs" style="top:9.9429%;left:41.7194%;width:19.7917%;">
+          <p class="g-pstyle2">Tweets for Tue, Aug 15th - Mon, Aug, 21st</p>
+        </div>
+        <div id="g-ai0-4" class="g-Layer_1 g-aiAbs" style="top:15.4782%;right:88.2275%;width:5.2083%;">
+          <p class="g-pstyle3">700</p>
+        </div>
+        <div id="g-ai0-5" class="g-Layer_1 g-aiAbs" style="top:24.3961%;right:88.2275%;width:5.2083%;">
+          <p class="g-pstyle3">600</p>
+        </div>
+        <div id="g-ai0-6" class="g-Layer_1 g-aiAbs" style="top:32.8015%;right:88.2275%;width:5.2083%;">
+          <p class="g-pstyle3">500</p>
+        </div>
+        <div id="g-ai0-7" class="g-Layer_1 g-aiAbs" style="top:41.7194%;right:88.2275%;width:5.2083%;">
+          <p class="g-pstyle3">400</p>
+        </div>
+        <div id="g-ai0-8" class="g-Layer_1 g-aiAbs" style="top:50.6372%;right:88.2275%;width:5.2083%;">
+          <p class="g-pstyle3">300</p>
+        </div>
+        <div id="g-ai0-9" class="g-Layer_1 g-aiAbs" style="top:59.1451%;right:88.2275%;width:5.2083%;">
+          <p class="g-pstyle3">200</p>
+        </div>
+        <div id="g-ai0-10" class="g-Layer_1 g-aiAbs" style="top:67.7555%;right:88.2275%;width:5.2083%;">
+          <p class="g-pstyle3">100</p>
+        </div>
+        <div id="g-ai0-11" class="g-Layer_1 g-aiAbs" style="top:76.6734%;right:88.2275%;width:5.2083%;">
+          <p class="g-pstyle3">0</p>
+        </div>
+        <div id="g-ai0-12" class="g-Layer_1 g-aiAbs" style="top:86.9239%;left:51.9879%;width:3.2986%;">
+          <p class="g-pstyle4">pogkas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class = 'text-2'>
+    <p>
+      For this investigation, we only used a short span of time to calculate how many interactions and click-throughs each news organisation received. For a more complete picture, the investigation should be repeated in a wider timeframe. In order to draw a more accurate picture, we have controlled the number of total interactions and total clickthroughs for each organisation per 100 tweets posted that utilized bitly link sharing within the timeframe of our investigation. Another factor that to be taken into account and controlled against could be the number of followers each news organization has on Twitter, although interactions and clicks might be coming from users that don't follow the account of the given media, and are exposed to their Tweets through retweets or posts of their friends. Finally, a similar analysis should take into account a common practice of news organisation to re-post links during the day, either for providing followers with updates on a developing story, or for recycling successful or interesting stories aiming at reaching to users who might not have seen the post.
+    </p>
+    <p>
+       The 6 items with the most click-throughs on Twitter among the news organisation we analysed, were:
+    </p>
+  </div>
+
+
+  <div class = "table">
+      <table class="tg">
+              <tr>
+                <th class="tg-yw4l">Twitter Account</th>
+                <th class="tg-yw4l">Tweet</th>
+                <th class="tg-yw4l">Permalink</th>
+                <th class="tg-yw4l">Likes</th>
+                <th class="tg-yw4l">Retweets</th>
+                <th class="tg-yw4l">Replies</th>
+                <th class="tg-yw4k">Click-throughs</th>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">CBS News</td>
+                <td class="tg-yw4l">WATCH LIVE: Attorney General Jeff Sessions delivers speech on immigration in Miami</td>
+                <td class="tg-yw4l"><a href="https://twitter.com/CBSNews/status/897900482211049472" target="blank">https://twitter.com/CBSNews/status/897900482211049472</a></td>
+                <td class="tg-yw4k">44</td>
+                <td class="tg-yw4k">34</td>
+                <td class="tg-yw4k">32</td>
+                <td class="tg-yw4k">79,044</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">The Economist</td>
+                <td class="tg-yw4l">Donald Trump is politically inept, morally barren and temperamentally unfit for office</td>
+                <td class="tg-yw4l"><a href="https://twitter.com/TheEconomist/status/898138032058114048" target="blank">https://twitter.com/TheEconomist/status/898138032058114048</a></td>
+                <td class="tg-yw4k">32,196</td>
+                <td class="tg-yw4k">19,401</td>
+                <td class="tg-yw4k">1,558</td>
+                <td class="tg-yw4k">70,228</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">CBS News</td>
+                <td class="tg-yw4l">We're praying "that in America that we will not allow the few to divide the many," VP Pence says of Charlottesville</td>
+                <td class="tg-yw4l"><a href="https://twitter.com/CBSNews/status/897866399284174849" target="blank">https://twitter.com/CBSNews/status/897866399284174849</a></td>
+                <td class="tg-yw4k">187</td>
+                <td class="tg-yw4k">87</td>
+                <td class="tg-yw4k">204</td>
+                <td class="tg-yw4k">46,091</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">The New York Times</td>
+                <td class="tg-yw4l">Breaking News: President Trump told aides he’s decided to push out Stephen Bannon as chief strategist</td>
+                <td class="tg-yw4l"><a href="https://twitter.com/nytimes/status/898585843664691200" target="blank">https://twitter.com/nytimes/status/898585843664691200</a></td>
+                <td class="tg-yw4k">6796</td>
+                <td class="tg-yw4k">5422</td>
+                <td class="tg-yw4k">997</td>
+                <td class="tg-yw4k">25,289</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">ABC News</td>
+                <td class="tg-yw4l">Lincoln Memorial defaced with graffiti overnight; National Park Service is investigating and working to remove it. </td>
+                <td class="tg-yw4l"><a href="https://twitter.com/ABC/status/897527675912298496" target="blank">https://twitter.com/ABC/status/897527675912298496</a></td>
+                <td class="tg-yw4k">319</td>
+                <td class="tg-yw4k">559</td>
+                <td class="tg-yw4k">206</td>
+                <td class="tg-yw4k">22,800</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">The New York Times</td>
+                <td class="tg-yw4l">Opinion: It's now clear that my optimism was unfounded. I can’t stand by this disgraceful administration any longer.</td>
+                <td class="tg-yw4l"><a href = "https://twitter.com/nytimes/status/898264612352733185" target="blank">https://twitter.com/nytimes/status/898264612352733185</a></td>
+                <td class="tg-yw4k">11,347</td>
+                <td class="tg-yw4k">5,120</td>
+                <td class="tg-yw4k">1,029</td>
+                <td class="tg-yw4k">22,286</td>
+              </tr>
+            </table>
+  </div>
+
+  <div class = 'image'>
+    <!-- Generated by ai2html v0.65.4 -->
+    <div id="g-05-Total-Likes-Replies-Retweets-Bitlys-Normalized_v03-box" class="ai2html">
+      <div id="g-05-Total-Likes-Replies-Retweets-Bitlys-Normalized_v03-Artboard_1" class="g-artboard g-artboard-v3" data-min-width='1227'>
+        <img id="g-ai0-0" class="g-aiImg" src="images/total-likes-retweets-replies-clicks-normalized.jpg"/>
+        <div id="g-ai0-1" class="g-Layer_1 g-aiAbs" style="top:1.6204%;left:34.849%;width:9.8615%;">
+          <p class="g-pstyle0">Likes</p>
+        </div>
+        <div id="g-ai0-2" class="g-Layer_1 g-aiAbs" style="top:1.6204%;left:44.2215%;width:9.8615%;">
+          <p class="g-pstyle0">Retweets</p>
+        </div>
+        <div id="g-ai0-3" class="g-Layer_1 g-aiAbs" style="top:1.6204%;left:56.4464%;width:9.8615%;">
+          <p class="g-pstyle0">Replies</p>
+        </div>
+        <div id="g-ai0-4" class="g-Layer_1 g-aiAbs" style="top:1.6204%;left:67.2044%;width:22.0049%;">
+          <p class="g-pstyle0">Click-throughs</p>
+        </div>
+        <div id="g-ai0-5" class="g-Layer_1 g-aiAbs" style="top:5.3241%;left:37.5914%;width:37.3268%;">
+          <p class="g-pstyle1">Likes, retweets, and replies vs. click-throughs per 100 tweets with a bitly shortlink for major US news organisations. Tweets for Tue, Aug 15th - Mon, Aug, 21st. Bitly analytics retrieved on Tue, Aug 22nd.</p>
+        </div>
+        <div id="g-ai0-6" class="g-Layer_1 g-aiAbs" style="top:11.2269%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">180,000</p>
+        </div>
+        <div id="g-ai0-7" class="g-Layer_1 g-aiAbs" style="top:19.5602%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">160,000</p>
+        </div>
+        <div id="g-ai0-8" class="g-Layer_1 g-aiAbs" style="top:27.8935%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">140,000</p>
+        </div>
+        <div id="g-ai0-9" class="g-Layer_1 g-aiAbs" style="top:36.3426%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">120,000</p>
+        </div>
+        <div id="g-ai0-10" class="g-Layer_1 g-aiAbs" style="top:44.6759%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">100,000</p>
+        </div>
+        <div id="g-ai0-11" class="g-Layer_1 g-aiAbs" style="top:53.0093%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">80,000</p>
+        </div>
+        <div id="g-ai0-12" class="g-Layer_1 g-aiAbs" style="top:61.3426%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">60,000</p>
+        </div>
+        <div id="g-ai0-13" class="g-Layer_1 g-aiAbs" style="top:69.9074%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">40,000</p>
+        </div>
+        <div id="g-ai0-14" class="g-Layer_1 g-aiAbs" style="top:78.125%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">20,000</p>
+        </div>
+        <div id="g-ai0-15" class="g-Layer_1 g-aiAbs" style="top:86.5741%;right:88.4271%;width:4.89%;">
+          <p class="g-pstyle2">0</p>
+        </div>
+        <div id="g-ai0-16" class="g-Layer_1 g-aiAbs" style="top:95.8333%;left:53.7001%;width:3.097%;">
+          <p class="g-pstyle3">pogkas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = 'final'>
+    <div class='ending_credits_header'>Data Sources</div>
+    <div class="ending_credits_content"><a href='https://twitter.com/' target='blank'>Twitter</a><br/>
+    <a href='https://bitly.com/' target='blank'>Bitly</a><br/><br/>
+    </div>
+<!--     <div class='ending_credits_header'>Acknowledgements</div>
+    <div class="ending_credits_content">.</div>    -->
+    <div class='ending_credits_header'>Created During</div>
+    <div class="ending_credits_content">The Lede 2017 at Columbia University.<br/>Instructed by Soma, and Maryanne Murray.<br/><br/></div>
+    <div class='ending_credits_header'>Other Projects</div>
+    <div class="ending_credits_content"><a href='https://goo.gl/RmT6yk' target='blank'>Real-Estate Around Manhattanville Campus Up But Not As Much As Rest of Manhattan</a>.
+    <br/><a href='https://goo.gl/qk9PZy' target='blank'>Fast-Food and Obesity in New York City Neighborhoods</a>.
+    <br/><a href='https://goo.gl/KwnVbn' target='blank'>Sentiment Analysis of Punk Rock Songs</a>.</div>
+ 
+  </div>
+
+</div>
+
+<!--   <span style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'></span><br/><br/>
+            <br/><span style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'><br/></span><br/><br/>
+            Acknowledgements:<br/><span style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>Icon made by <a href="https://www.flaticon.com/authors/daniel-bruce" target='blank' title="Daniel Bruce" style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>Daniel Bruce</a> from <a href="https://www.flaticon.com/" target="blank" title="Flaticon" style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>flaticon.com</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" target='blank' title="Creative Commons BY 3.0" target="_blank" style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>CC 3.0 BY</a><br/>HTML and CSS based on <a href='http://scrollmagic.io/examples/basic/section_wipes_natural.html' target="blank" style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>ScrollMagic's Section Wipes</a>.</span><br/><br/>
+
+            :<br/><span style='font-family: Roboto; font-size: 15px; color: black; text-shadow:none !important; font-weight:300 !important;'>/span>
+            </b> -->
+</body>
+</html>

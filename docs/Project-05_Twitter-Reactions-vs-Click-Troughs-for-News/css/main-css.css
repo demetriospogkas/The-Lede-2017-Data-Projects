@@ -1,0 +1,170 @@
+  @font-face {
+    font-family: 'SexPistols';
+    src: url(sex_pistols-webfont.woff) format('woff');
+    src: url(sex_pistols-webfont.woff2) format('woff2');
+    src: url(sex_pistols.ttf) format('truetype');
+}
+
+  .title {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 5%;
+  }
+
+@media only screen and (max-width: 500px) {
+    .article_container {
+      margin-left: 5% !important;
+      margin-right: 5% !important;
+  }
+
+/*  .cover_image {
+    margin-left: 5% !important;
+      margin-right: 5% !important;
+  }*/
+
+}
+
+@media only screen and (min-width: 501px) and (max-width: 899px){
+    .article_container {
+      margin-left: 10% !important;
+      margin-right: 10% !important;
+  }
+
+/*  .cover_image {
+    margin-left: 5% !important;
+      margin-right: 5% !important;
+  }*/
+
+}
+
+@media only screen and (max-width: 900px) {
+    .article_container {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+
+/*  .cover_image {
+    margin-left: 5% !important;
+      margin-right: 5% !important;
+  }*/
+
+}
+
+  .author_credit {
+    font-family: Lato; 
+    font-size:16px; 
+    font-weight: 300; 
+    text-align: center; 
+    margin-bottom: 25px; 
+    font-color:black; 
+    margin-top:1%;
+  }
+
+  .cover_image {
+    display: block;
+  }
+
+  .image_credit {
+    color:white;
+    font-family: Lato;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 10px;
+    margin-top: -20px;
+    margin-right: 5px;
+    text-align: right;
+    background-color: #706c67;
+    z-index: 200;
+  }
+
+  .article_container {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+
+
+  .scroll {
+    margin-left: 50%;
+  }
+
+
+  .intro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:300; 
+    font-size:18px; 
+    margin-top: 10%;
+    text-align: justify !important;
+  }
+
+  .intro b {
+    font-weight: 700;
+  }
+
+  .sub_head {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 25px; 
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:200; 
+    font-size:18px;
+    text-align: justify !important;
+  }
+
+  .text b {
+    font-weight: 700;
+  }
+
+  .text-2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:200; 
+    font-size:18px;
+    text-align: justify !important;
+    margin-bottom: 25% !important;
+  }
+
+  .image {
+    margin-left: -30%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .image_horizontal {
+    margin-left: -22% !important;
+    z-index: -10000 !important;
+  }
+
+  .table {
+    margin-left: -25% !important;
+    margin-right: 25% !important;
+    margin-top: -12% !important;
+  }
+
+  .final {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .ending_credits_header {
+    font-family: 'SexPistols', sans-serif;
+    font-size: 25px; 
+    text-align: center;
+  }
+  .ending_credits_content {
+    font-family: Roboto; 
+    font-size: 15px; 
+    color: black; text-shadow:none !important; 
+    font-weight:300 !important;
+    margin-bottom: 2%;
+    text-align: center;
+  }
